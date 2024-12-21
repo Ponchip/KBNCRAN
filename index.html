@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Проектирование интерфейсов</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo-block">
+            <img class="logoimage" src="images/logo.jpg" alt="">
+        </div>
+        <nav class="navbar">
+            <ul class="nav-list">
+                <li class="nav-item"><a class="nav-link" href="index.html">На начало</a></li>
+                <li class="nav-item"><a class="nav-link" href="registratia.html">Регистрация</a></li>
+                <li class="nav-item"><a class="nav-link" href="company.html">О компании</a></li>
+                <li class="nav-item"><a class="nav-link" href="telephon.html">Контакты</a></li>
+                <li class="nav-item"><a class="nav-link" href="index.html#praktika">Практикантам</a></li>
+                <li class="nav-item"><a class="nav-link" href="Sviaz.html">Форма для связи</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main-container">
+        <section class="welcome-section">
+            <h2 class="section-title">Приветствуем тебя на сайте КБНЦ РАН</h2>
+            <img class="banner" src="Баннер.png" alt="Баннер КБНЦ РАН">
+            <p class="intro">Студенты и их преподаватели!</p>
+            <p class="welcome-message">Мы рады приветствовать вас на официальной странице Института информатики и проблем регионального управления, филиала Федерального научного центра «Кабардино-Балкарский научный центр Российской академии наук». Наш институт является ведущим в своей области.</p>
+        </section>
+        <section class="wecome-section">
+            <h2 class="section-title">Мы гордимся своими достижениями</h2>
+            <div class="contain">
+                <div class="contain-row">
+                    <div class="contain-item">
+                        <img class="banner-slide" src="images/Достижения.gif" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="welcome-section">
+            <h2 class="section-title" id="praktika">Практикантам</h2>
+            <div class="block_js">
+                <p><a class="First_link-js" href="#" onclick="StartF();">Функции в JavaScript</a> - функция, которая параметром будет принимать массив и возвращать количество четных
+                элементов, расположенных по диагоналям.</p>
+                
+            </div>
+        </section>
+        <section class="graphics-section">
+            <h2 class="section-title">Графика</h2>
+        
+            <div class="graphics-block">
+                <h3 class="sub-title">Растровая графика</h3>
+                <ul class="graphics-list">
+                    <li>Ретуширование изображений. Корректирующие фильтры</li>
+                    <img class="example-image" src="images/БаннерВекторизированный.svg" alt="Пример растровой графики">
+                    <li>Работа с масками. Векторные контуры фигуры</li>
+                    <img class="example-image" src="images/ФутбаМАСКа.png" alt="Пример растровой графики">
+                    <li>Создание анимированных изображений.</li>
+                    <img class="example-image" src="images/БаннерАнимация.gif" alt="Пример растровой графики">
+                </ul>
+
+            </div>
+        
+            <div class="graphics-block">
+                <h3 class="sub-title">Векторная графика</h3>
+                <ul class="graphics-list">
+                    <li>Интерактивные искажения</li>
+                    <img class="example-image" src="images/Флаг.png" alt="Пример растровой графики">
+                    <li>Экструзия</li>
+                    <img class="example-image" src="images/ЭкструзияНацПроекты.png" alt="Пример растровой графики">
+                </ul>
+            </div>
+        
+            <div class="graphics-block">
+                <h3 class="sub-title">Трехмерная графика</h3>
+                <ul class="graphics-list">
+                    <li>Создание и редактирование трехмерных объектов.</li>
+                </ul>
+                <img class="example-image" src="images/3дНаучныйЦентр.png" alt="Пример трехмерной графики">
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <nav class="navbarF">
+            <ul class="nav-listF">
+                <div>
+                    <li class="nav-itemF"><a class="nav-linkF" href="index.html">На начало</a></li>
+                    <li class="nav-itemF"><a class="nav-linkF" href="registratia.html">Регистрация</a></li>
+                </div>
+                <div class="nav-linkF-block">
+                    <li class="nav-itemF"><a class="nav-linkF" href="company.html">О компании</a></li>
+                    <li class="nav-itemF"><a class="nav-linkF" href="telephon.html">Контакты</a></li>
+                </div>
+                <div>
+                    <li class="nav-itemF"><a class="nav-linkF" href="index.html#praktika">Практикантам</a></li>
+                    <li class="nav-itemF"><a class="nav-linkF" href="Sviaz.html">Форма для связи</a></li>
+                </div>
+            </ul>
+        <div class="footertitleblock">
+            <div class="logo-blockf">
+                <img class="logoimagef" src="images/logo.jpg" alt="">
+            </div>
+            <p>&copy; 2024 ИИПРУ КБНЦ РАН.</p>
+            <div class="logo-blockf">
+                <img class="logoimagef" src="images/logo.jpg" alt="">
+            </div>
+        </div>
+        </nav>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

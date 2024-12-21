@@ -1,0 +1,313 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #e9e9e9;
+}
+
+.header {
+    background: #ffffff;
+    color: #ffffff;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+.logo-block {
+    height: 100%;
+
+}
+.logoimage {
+    height: 100%;
+}
+
+.navbar{
+    padding: 0;
+    margin: 0;
+}
+
+.nav-list {
+    list-style: none;
+    padding: 10px;
+    display: flex;
+}
+
+.nav-item {
+    display: block;
+}
+
+.nav-link {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #253b65;
+    padding: 20px;
+}
+
+.nav-link:hover{
+    background: #325492;
+}
+
+.main-container {
+    padding: 50px;
+    width: 800px;
+    margin: 10px auto;
+    background: #ffffff;
+    border-radius: 20px;
+}
+
+.section-title {
+    color: #35424a;
+    border-bottom: 2px solid #253b65;
+    padding-bottom: 10px;
+    text-align: center;
+    padding-top: 0;
+    margin: 0;
+}
+
+.banner {
+    display: block;
+    margin: 20px auto;
+    max-width: 600px;
+    
+}
+
+.intro, .welcome-message, .history, .achievements, .contact-info, .thank-you {
+    text-align: center;
+}
+
+.research-directions {
+    list-style-type: square;
+    margin: 0;
+    padding: 0;
+}
+
+.sub-title {
+    color: #e8491d;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #35424a;
+    color: #ffffff;
+    position: relative;
+}
+
+.navbarF{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.nav-listF {
+    display: flex; /* Используем Flexbox для размещения элементов */
+    flex-wrap: wrap; /* Позволяем элементам переноситься на следующую строку */
+    list-style-type: none; /* Убираем маркеры списка */
+
+    margin: 0; /* Убираем внешние отступы */
+    justify-content: center;
+}
+
+.nav-itemF {
+    flex: 1 0 30%; /* Устанавливаем базовый размер для элементов */
+    box-sizing: border-box; /* Учитываем отступы и границы в ширине */
+}
+
+.nav-linkF {
+    display: block; /* Делаем ссылки блочными элементами */
+    padding: 10px; /* Внутренние отступы для ссылок */
+    color: white; /* Цвет текста */
+    text-align: center; /* Центрируем текст */
+    text-decoration: none; /* Убираем подчеркивание */
+    border-radius: 4px; /* Скругляем углы */
+    
+}
+
+.nav-linkF:hover{
+    text-shadow: 1px 1px 5px #fff;
+}
+
+.nav-linkF-block{
+    margin: 0 50px;
+}
+
+.footertitleblock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo-blockf {
+    margin: 0 20px;
+}
+.logoimagef {
+    width: 70px;
+    border-radius: 10px;
+}
+
+
+
+form {
+    margin: 20px 0;
+
+}
+
+form input,
+form textarea {
+    width: calc(100% - 30px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+select{
+    margin-bottom: 20px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+form button {
+    background-color: #253b65;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 20px;
+    width: 200px;
+}
+
+form button:hover {
+    background-color: #365185;
+}
+
+.blockCheckbox{
+    display: flex;
+
+}
+
+textarea{
+    max-width: 770px;
+    min-width: 770px;
+    min-height: 100px;
+}
+
+#gender{
+    width: calc(100% - 7px);
+    height: 40px;
+}
+
+.radio-block, .checkbox-block {
+    display: flex;
+    align-items: center;
+    margin: 10px 0; /* Отступы между элементами */
+}
+
+.radio-block{
+    margin: -20px 0 -40px 0;
+}
+
+.radio-block input, .checkbox-block input {
+    margin-right: 10px; /* Отступ между радио/чекбоксом и текстом */
+    margin: 10px;
+    width: 20px;
+}
+
+label {
+    margin: 10px 0; /* Отступы для меток */
+    display: block; /* Делаем метки блочными для более четкого отображения */
+}
+
+.massage{
+    margin-top: 30px;
+}
+
+.button-reg{
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+.contain-row{
+    margin: 25px 0;
+}
+
+.contain-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.banner-slide{
+    height: 100%;
+    max-width: 800px;
+}
+
+.button-comp{
+    background-color: #253b65;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 20px;
+    width: 200px;
+}
+
+.button-comp:hover {
+    background-color: #365185;
+}
+
+.banner-slide2{
+    width: 100%;
+    height: 240px;
+}
+
+#contacts{
+    padding:20px;
+    background-color: #f9f9f9;
+}
+
+.graphics-section {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #f0f4f8;
+    border-radius: 10px;
+}
+
+.graphics-block {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.sub-title {
+    color: #253b65;
+    margin: 0;
+    text-align: center;
+}
+
+.graphics-list {
+    list-style-type: decimal;
+    padding-left: 20px;
+}
+
+.example-image {
+    display: block;
+    margin: 10px auto;
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.First_link-js{
+    color: #2c03e6;
+    text-shadow: 1px 1px #000;
+    font-size: 24px;
+}

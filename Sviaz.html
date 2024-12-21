@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Проектирование интерфейсов</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo-block">
+            <img class="logoimage" src="images/logo.jpg" alt="">
+        </div>
+        <nav class="navbar">
+            <ul class="nav-list">
+                <li class="nav-item"><a class="nav-link" href="index.html">На начало</a></li>
+                <li class="nav-item"><a class="nav-link" href="registratia.html">Регистрация</a></li>
+                <li class="nav-item"><a class="nav-link" href="company.html">О компании</a></li>
+                <li class="nav-item"><a class="nav-link" href="telephon.html">Контакты</a></li>
+                <li class="nav-item"><a class="nav-link" href="index.html#praktika">Практикантам</a></li>
+                <li class="nav-item"><a class="nav-link" href="Sviaz.html">Форма для связи</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main-container">
+        <center><h2>Форма обратной связи</h2></center>
+        <form id="contactForm">
+            <label for="name">Имя:</label>
+            <input type="text" id="name" name="nam" required>
+            <label for="name">Фамилия:</label>
+            <input type="text" id="name" name="nam" required>
+            <label for="name">Отчество:</label>
+            <input type="text" id="name" name="nam" required>
+            <label for="gender">Пол:</label>
+            <select id="gender" name="gender">
+                <option value="male">Мужской</option>
+                <option value="female">Женский</option>
+            </select><br>
+            <label for="phone">Телефон:</label>
+            <input type="text" id="phone" name="phon">
+            <label for="age">Возраст:</label>
+            <input type="number" id="age" name="Years">
+            <label for="email">Электронная почта:</label>
+            <input type="email" id="email" name="eml" required>
+            <label for="radio">Есть дом?</label>
+            <div class="radio-block">
+                <input type="radio" name="da" id="dom"><h4>Да</h4>
+            </div>
+            <div class="radio-block">
+                <input type="radio" name="da" id="dom"><h4>Нет</h4>
+            </div>
+            <label class="massage" for="message">Сообщение:</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+            <center>
+                <button class="btnOtpravit" type="submit">Отправить</button>
+                <button class="btnReset" type="reset">Очистить все</button>
+            </center>
+        </form>
+    </main>
+    <footer class="footer">
+        <nav class="navbarF">
+            <ul class="nav-listF">
+                <div>
+                    <li class="nav-itemF"><a class="nav-linkF" href="index.html">На начало</a></li>
+                    <li class="nav-itemF"><a class="nav-linkF" href="registratia.html">Регистрация</a></li>
+                </div>
+                <div class="nav-linkF-block">
+                    <li class="nav-itemF"><a class="nav-linkF" href="company.html">О компании</a></li>
+                    <li class="nav-itemF"><a class="nav-linkF" href="telephon.html">Контакты</a></li>
+                </div>
+                <div>
+                    <li class="nav-itemF"><a class="nav-linkF" href="index.html#praktika">Практикантам</a></li>
+                    <li class="nav-itemF"><a class="nav-linkF" href="Sviaz.html">Форма для связи</a></li>
+                </div>
+            </ul>
+        <div class="footertitleblock">
+            <div class="logo-blockf">
+                <img class="logoimagef" src="images/logo.jpg" alt="">
+            </div>
+            <p>&copy; 2024 ИИПРУ КБНЦ РАН.</p>
+            <div class="logo-blockf">
+                <img class="logoimagef" src="images/logo.jpg" alt="">
+            </div>
+        </div>
+        </nav>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
